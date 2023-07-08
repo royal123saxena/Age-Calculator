@@ -79,3 +79,31 @@
 #result span{
     color: #ffff76;
 }
+
+@media (max-width: 580px){
+    .container{
+        overflow: hidden;
+    }
+    .calculator h1 span{
+        font-size: 45px;
+    }
+    .calculator{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 400px){
+    .container{
+        overflow: hidden;
+    }
+    .calculator h1 span{
+        font-size: 45px;
+    }
+    .calculator{
+        width: 90%;
+    }
+    .input-box input{
+        font-size: 12px;
+    }
+}
